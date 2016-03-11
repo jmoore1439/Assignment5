@@ -1,0 +1,6 @@
+#spiderman {height: 50%; width: 50%; float: right; padding-left: 5px; padding-right: 5px;padding-bottom: 5px;padding-top: 5px;}
+#batman {height: 50%; width: 50%; float: right; padding-left: 5px; padding-right: 5px;padding-bottom: 5px;padding-top: 5px;}
+section.section1 {background-color: blue; visibility: hidden; max-width: 600px;position:absolute; }
+section.section2 {background-color: black; visibility: hidden;max-width: 600px;position: inherit;}
+#section2 {background: black;}
+h2 {color: white; text-align: center;}
