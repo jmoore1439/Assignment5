@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Assignment 5</title>
+    <link rel="stylesheet" type="text/css" href="styles/Assignment5.css" />
+     <script src="JS/Assignment5.js"></script>  
+</head>
+
+<body>
+<h1>Assignment 5</h1>
+<section id = "title">
+<select onchange="MenuChoice()" id = "menu">
+        <option> Please An Option</option>
+        <option> Customer Table</option>
+        <option> Customer Order History</option>
+        <option>Customer Orders</option>
+</select>
+</section>
+<hr>
+
+<section id= "section1" class = "section1">
+    <button onclick= "GetCustomer()" id = "cust">Get Customer List</button>
+    <br>
+    <label id= "customerdisplay">Customers Display Here</label>
+</section>
+
+<section id= "section2" class = "section2">
+    <label>Please Input a Customer ID:</label>
+    <input type= "text" id= "custid">
+    <br>
+    <button onclick = "GetOrders()" id = "orders">Customer Order History</button>
+    <br>
+    <label id= "orderdisplay">Order History Will Display Here</label>
+</section>
+
+<section id= "section3" class = "section3">
+    <label>Please Input a Customer ID:</label>
+    <input type= "text" id= "custid1">
+    <br>
+    <button onclick = "GetServices()" id = "service">Customer Order Info</button>
+    <br>
+    <label id= "servicedisplay">Order Info Will Display Here</label>
+</section>
+
+
+</body>
+</html>
